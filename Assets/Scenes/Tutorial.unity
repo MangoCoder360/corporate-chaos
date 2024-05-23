@@ -221,6 +221,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 750415646}
+  projectilePrefab: {fileID: 5053312645587619315, guid: 205d6a28465ee754788917155221c83b, type: 3}
 --- !u!1 &234129894
 GameObject:
   m_ObjectHideFlags: 0
@@ -467,7 +468,7 @@ Transform:
   m_GameObject: {fileID: 450970376}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 25, z: -10}
+  m_LocalPosition: {x: 0, y: 60, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
