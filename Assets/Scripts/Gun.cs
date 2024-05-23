@@ -5,7 +5,7 @@ public class Gun : MonoBehaviour
     public Transform player;
     public GameObject projectilePrefab;
     private float projectileSpeed = 30f;
-    private float cooldown = 0.1f;
+    private float cooldown = 0.2f;
 
     void Update()
     {
@@ -23,7 +23,7 @@ public class Gun : MonoBehaviour
             if (cooldown < 0)
             {
                 Shoot(direction);
-                cooldown = 0.1f;
+                cooldown = 0.2f;
             }
         }
 
