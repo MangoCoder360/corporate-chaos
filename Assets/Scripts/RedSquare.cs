@@ -10,7 +10,7 @@ public class RedSquare : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        gameObject.transform.localScale = new Vector3(0.3f, 0.3f, 0.3f);
+        gameObject.transform.localScale = new Vector3(1.9f, 1.9f, 1.9f);
         collision.gameObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
         collision.gameObject.transform.localScale = Vector3.zero;
         StartCoroutine(DestroyGameObjectAfterDelay(collision.gameObject, 3f));
